@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'http://localhost:8080', 'https://app.netlify.com/sites/walkeronrails'
+    origins 'http://localhost:8080', 'https://walkeronrails.netlify.app/'
 
     resource '*',
       headers: :any,
