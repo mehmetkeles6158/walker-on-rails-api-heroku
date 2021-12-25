@@ -1,6 +1,6 @@
 
 
-@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHAiOjE2NDAwMTQxNzB9.ovMXAAHVR93VEtimlvC9tBDFs2H0A-KBZRoTklMkQBk
+@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHAiOjE2NDA0ODIwNDB9.MiC7GXzJZpdxRK-ztslji_OkdyClED8t2MHRPNiQuUg
 GET http://localhost:3000/walks
 Authorization: Bearer {{jwt}}
 ###
